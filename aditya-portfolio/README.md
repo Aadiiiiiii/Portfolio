@@ -16,7 +16,7 @@ The public deployment link will be added after the first release.
 - Professional experience timeline
 - Technology stack and engineering capabilities
 - Operating principles and contact section
-- Downloadable résumé
+- Public résumé link
 - Accessible keyboard focus states
 - Reduced-motion support
 - Open Graph and social-sharing metadata
@@ -49,7 +49,6 @@ No installation or build command is needed.
 ```text
 aditya-portfolio/
 ├── assets/
-│   ├── aditya-choudhary-resume.pdf
 │   ├── favicon.svg
 │   └── profile.jpg
 ├── index.html
@@ -88,6 +87,7 @@ After deployment, update the **Live Portfolio** section and use the full deploye
 - Email: [payaladitya9010@gmail.com](mailto:payaladitya9010@gmail.com)
 - LinkedIn: [aditya-choudhary-aadii](https://www.linkedin.com/in/aditya-choudhary-aadii/)
 - GitHub: [Aadiiiiiii](https://github.com/Aadiiiiiii)
+- Résumé: [View on Google Drive](https://drive.google.com/file/d/1dfECE5ywYQEkTLdg1C9d1IcEgjUkXyUq/view?usp=sharing)
 
 ## License
 
