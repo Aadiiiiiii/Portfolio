@@ -14,6 +14,7 @@ The public deployment link will be added after the first release.
 - Premium technical-style hero portrait
 - Selected software and AI project showcase
 - Professional experience timeline
+- Verified credential and active Nanodegree showcase
 - Technology stack and engineering capabilities
 - Operating principles and contact section
 - Public résumé link
@@ -63,9 +64,10 @@ aditya-portfolio/
 1. Introduction
 2. Selected Work
 3. Experience
-4. Capabilities
-5. Operating Principles
-6. Contact
+4. Credentials & Learning
+5. Capabilities
+6. Operating Principles
+7. Contact
 
 ## Deployment
 

@@ -768,6 +768,124 @@ a:focus-visible {
   color: #262d38;
   text-align: right;
 }
+/* Credentials and continuing education */
+.credentials-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.credential-card {
+  min-height: 390px;
+  padding: 34px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background:
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 31px,
+      rgba(255, 255, 255, 0.025) 32px
+    ),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.035), rgba(255, 255, 255, 0.012));
+}
+
+.credential-card::after {
+  content: "";
+  width: 210px;
+  height: 210px;
+  position: absolute;
+  top: -85px;
+  right: -75px;
+  border: 1px solid rgba(116, 230, 255, 0.1);
+  border-radius: 50%;
+  box-shadow: 0 0 70px rgba(116, 230, 255, 0.055);
+}
+
+.credential-active::after {
+  border-color: rgba(185, 255, 102, 0.13);
+  box-shadow: 0 0 70px rgba(185, 255, 102, 0.06);
+}
+
+.credential-topline,
+.credential-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+}
+
+.credential-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 9px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font: 8px monospace;
+  letter-spacing: 0.12em;
+}
+
+.credential-status i {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--cyan);
+  box-shadow: 0 0 10px var(--cyan);
+}
+
+.credential-progress i {
+  background: var(--acid);
+  box-shadow: 0 0 10px var(--acid);
+}
+
+.credential-provider {
+  margin-top: 62px;
+  color: var(--cyan);
+  font-size: 9px;
+}
+
+.credential-active .credential-provider,
+.credential-current {
+  color: var(--acid);
+}
+
+.credential-card h3 {
+  max-width: 600px;
+  margin: 16px 0;
+  font-size: clamp(32px, 3.4vw, 50px);
+  line-height: 0.98;
+  letter-spacing: -0.045em;
+}
+
+.credential-card p {
+  max-width: 600px;
+  margin: 0 0 34px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.credential-footer {
+  margin-top: auto;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+
+.credential-footer a {
+  display: inline-flex;
+  gap: 14px;
+  font-size: 11px;
+  transition: color 0.2s ease;
+}
+
+.credential-footer a:hover {
+  color: var(--acid);
+}
+
 /* Capabilities */
 .stack-layout {
   border: 1px solid var(--line);
@@ -1488,5 +1606,31 @@ a:focus-visible {
   }
   .contact-link {
     width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .credentials-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  .credential-card {
+    min-height: 360px;
+    padding: 28px;
+  }
+
+  .credential-provider {
+    margin-top: 46px;
+  }
+
+  .credential-card h3 {
+    font-size: 34px;
+  }
+
+  .credential-footer {
+    align-items: flex-start;
+    flex-direction: column;
   }
 }
