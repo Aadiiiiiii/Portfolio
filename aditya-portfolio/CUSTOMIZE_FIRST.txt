@@ -1,0 +1,12 @@
+BEFORE YOU PUBLISH
+==================
+
+1. Resume configured: assets/aditya-choudhary-resume.pdf
+2. Read your experience and project text once for accuracy.
+3. Add project links when they become available.
+
+Contact details are configured:
+Email: payaladitya9010@gmail.com
+LinkedIn: https://www.linkedin.com/in/aditya-choudhary-aadii/
+GitHub: https://github.com/Aadiiiiiii
+Resume: assets/aditya-choudhary-resume.pdf

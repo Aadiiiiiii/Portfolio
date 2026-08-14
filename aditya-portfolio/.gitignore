@@ -1,0 +1,39 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+~$*
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Optional package-manager files
+node_modules/
+.npm/
+.yarn/
+.pnpm-store/
+
+# Generated output and local previews
+dist/
+build/
+.cache/
+coverage/
+mobile-audit*.png
+
+# Hosting platform metadata
+.vercel/
+.netlify/
