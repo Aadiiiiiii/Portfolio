@@ -1,0 +1,23 @@
+{
+  "name": "aditya-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website for Aditya Choudhary - Software Engineer",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "portfolio",
+    "software-engineer",
+    "static-site"
+  ],
+  "author": "Aditya Choudhary <payaladitya9010@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
