@@ -89,7 +89,7 @@ After deployment, update the **Live Portfolio** section and use the full deploye
 - Email: [payaladitya9010@gmail.com](mailto:payaladitya9010@gmail.com)
 - LinkedIn: [aditya-choudhary-aadii](https://www.linkedin.com/in/aditya-choudhary-aadii/)
 - GitHub: [Aadiiiiiii](https://github.com/Aadiiiiiii)
-- Résumé: [View on Google Drive](https://drive.google.com/file/d/1a9CpBA5pE1zp6LeBW5uQYnbDGiYsXbxj/view?usp=sharing)
+- Résumé: [View on Google Drive](https://drive.google.com/file/d/1fAAoPXkpaWzTMYV0QRygPhf5qFvHd9Zz/view?usp=sharing)
 
 ## License
 
