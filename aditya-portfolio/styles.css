@@ -80,6 +80,9 @@ a:focus-visible {
   width: min(1440px, calc(100% - 64px));
   margin: 0 auto;
 }
+.section-anchor {
+  scroll-margin-top: 24px;
+}
 .site-header {
   height: 86px;
   display: grid;
