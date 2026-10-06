@@ -14,7 +14,7 @@ The public deployment link will be added after the first release.
 - Premium technical-style hero portrait
 - Selected software and AI project showcase
 - Professional experience timeline
-- Verified credential and active Nanodegree showcase
+- Verified course and completed Nanodegree credentials
 - Technology stack and engineering capabilities
 - Operating principles and contact section
 - Public résumé link
